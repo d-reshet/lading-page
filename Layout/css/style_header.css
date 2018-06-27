@@ -1,0 +1,116 @@
+#top{
+	height: 700px;
+	background: url(../images/fon.png)  no-repeat center top ;
+	background-size: cover;
+}
+.elena{
+	text-align: center;
+	margin-top: 60px;
+}
+.elena__title{
+	 font-family: 'Dancing Script', sans-serif;
+	font-size: 80px;
+	color: #fff;
+}
+.navbar-inner{
+	 margin: 0 auto;
+	 padding-top: 47px;
+}
+.menu__item{
+	margin-left: 30px;
+}
+.menu__item a{
+color: #fff;
+text-decoration: none;
+font-size: 24px;
+font-style: 'PTSans', sans-serif;
+text-transform: uppercase;
+		font-weight: 600;
+}
+.menu__item  a:hover{
+color: #cfd9df;
+}
+.text{
+	text-align: center;
+}
+.text__first{
+	color: #fff;
+	font-size: 70px;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 75px;
+}
+.text__wan{
+	 color: #fff;
+	 font-size: 30px;
+	 text-transform: uppercase;
+	 font-weight: 600;
+	 margin-top: 35px;
+	 font-weight: 600;
+	 font-family: 'PTSans', sans-serif;
+}
+.copy{
+	margin-top:80px;
+}
+.copy__button{
+	width: 235px;
+	height: 45px;
+	background: #50c3af;
+	color: #f5f5f5;
+	border-radius: 20px;
+	border: 0;
+	outline: none;
+	font-family: 'PTSans',  sans-serif;
+	font-weight: 600;	
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 0 auto;
+}
+.copy__button:hover {
+	box-shadow: 0 2px 1px 0 #9bdddd; 
+}
+
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 693px){
+	#top{
+		min-height: 800px;
+	}
+} 
+@media screen and (max-width: 540px){
+	#top{
+		min-height: 1100px;
+	}
+	.nav{
+		display: block;
+		text-align: center;
+	}
+	.menu__item{
+		padding-top: 5px;
+	}
+}
+@media screen and (max-width: 310px){
+	#top{
+		min-height: 1200px;
+
+	}
+}
+@media screen and (max-width: 255px){
+	.copy__button{
+	width: 180px;
+	height: 40px;
+	background: #50c3af;
+	color: #f5f5f5;
+	border-radius: 20px;
+	border: 0;
+	font-size: 14px;
+	outline: none;
+	font-family: 'PTSans',  sans-serif;
+	font-weight: 600;	
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 0 auto;
+}
+}
